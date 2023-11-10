@@ -1,0 +1,18 @@
+<main>
+  <ng-container *ngIf="visible">
+    <app-card 
+      *ngFor="let card of cards; index as i" 
+      (click)="onClick(i)"
+      [text]="card.text"
+      [image]="card.image"
+      >
+        </app-card>
+  </ng-container>
+
+  <ng-container *ngIf="!visible && cards.indexOf">
+
+    <app-about></app-about>
+
+  </ng-container>
+
+</main>
