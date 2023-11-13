@@ -38,3 +38,19 @@ p {
     --darkreader-inline-bgimage: none;
     text-align: center;
 }
+
+h1 {
+    font-family: 'Marvel';
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(196, 39, 39) 4px 3px 0px;
+    --darkreader-inline-color: #e8e6e3;
+    --darkreader-inline-bgcolor: #404548;
+    --darkreader-inline-bgimage: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

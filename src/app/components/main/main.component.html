@@ -2,9 +2,9 @@
   <ng-container *ngIf="visible">
     <app-card 
       *ngFor="let card of cards; index as i" 
-      (click)="onClick(i)"
       [text]="card.text"
       [image]="card.image"
+      [url]="card.url"
       >
         </app-card>
   </ng-container>

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -8,4 +9,15 @@ import { Component, Input } from '@angular/core';
 export class CardComponent {
   @Input() text: string = "";
   @Input() image: string = "";
+  @Input() url: string = "";
+
+  constructor(private router: Router, private route: ActivatedRoute) {
+
+  }
+
+  clicked() {
+    this.router.navigate([
+      this.url
+    ])
+  }
 }
