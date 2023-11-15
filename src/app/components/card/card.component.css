@@ -2,13 +2,18 @@
     font-family: 'Marvel';
     display: flex;
     flex-direction: row;
-    width: 100%;
     overflow: hidden;
+    width: calc(100% - 15px);
+    height: calc(100vh - 130px);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
+    overflow: none;
 }
 
 div {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100%;
     cursor: pointer;
     position: relative;
     background-position: center;

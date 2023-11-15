@@ -7,7 +7,6 @@ import { Card } from 'src/app/models/card.model';
   styleUrls: ['./main.component.css'],
 })
 export class MainComponent {
-  visible: boolean = true;
   cards: Card[] = [
     {
       image:
@@ -30,15 +29,4 @@ export class MainComponent {
       url: 'portfolio'
     }
   ];
-
-  onClick(evento: number) {
-    this.visible = false;
-    if (evento == 0) {
-      console.log('cliquei no 1');
-    } else if (evento == 1) {
-      console.log('cliquei no 2');
-    } else {
-      console.log('cliquei no 3');
-    }
-  }
 }

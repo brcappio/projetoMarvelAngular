@@ -1,0 +1,21 @@
+.go-back {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(119,0,255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.go-back p {
+    font-size: 25px;
+    width: 100%;
+}
+
+i {
+    font-size: 25px;
+    line-height: 25px;
+    flex-basis: 35%;
+}
