@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CheckforcardsComponent } from './components/checkforcards/checkforcards.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { GobackComponent } from './components/goback/goback.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GobackComponent } from './components/goback/goback.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

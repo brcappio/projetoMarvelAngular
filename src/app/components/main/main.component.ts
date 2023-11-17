@@ -24,7 +24,7 @@ export class MainComponent {
 
     {
       image:
-        'https://github.com/brcappio/projetomarvelbasf/blob/master/src/assets/foto%20de%20perfil.png?raw=true',
+        'https://github.com/brcappio/projetomarvelbasf/blob/master/src/assets/foto%20de%20perfil.png?raw=false',
       text: 'Portfolio',
       url: 'portfolio'
     }
