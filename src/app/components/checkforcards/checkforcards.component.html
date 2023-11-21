@@ -7,22 +7,22 @@
         <div class="card">
             <div class="card-content">
                 <div class="card-img-background">
-                    <img src="../../../assets/2.webp" alt="">
+                    <img [src]="randomCard?.imageUrl" alt="Random Card">
                 </div>
                 <div class="card-text">
-                    <h3>nome do personagem</h3>
-                    <p class="card-hability">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem, alias aspernatur labore ad saepe.</p>
+                    <h3>{{ randomCard?.name }}</h3>
+                    <p class="card-hability">{{ randomCard?.ability }}</p>
                 </div>
             </div>
         </div>
         <div class="info">
             <div class="character-info">
-                <p>Name: Test</p>
-                <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tenetur perferendis reiciendis, dolorem libero, dolorum, asperiores ex sit ut unde quam exercitationem earum consectetur modi!</p>
-                <p>Comics: 777</p>
-                <p>Stories: 777</p>
-                <p>Events: 777</p>
-                <p>Series: 777</p>
+                <p>Name: {{ marvelCharacter?.name }}</p>
+                <p>Description: {{ marvelCharacter?.description }}</p>
+                <p>Comics: {{ marvelCharacter?.comics?.available }}</p>
+                <p>Stories: {{ marvelCharacter?.stories?.available }}</p>
+                <p>Events: {{ marvelCharacter?.events?.available }}</p>
+                <p>Series: {{ marvelCharacter?.series?.available }}</p>
             </div>
             <button (click)="getRandomCard()">Generate Card</button>
         </div>
