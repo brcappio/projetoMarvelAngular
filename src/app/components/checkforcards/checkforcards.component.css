@@ -4,7 +4,7 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 154px);
     background-color: #212121;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
@@ -12,6 +12,7 @@
     overflow: auto;
     text-align: center;
     padding: 12px;
+    margin-top: 12px;
     box-sizing: border-box;
     color: whitesmoke;
 }
@@ -19,36 +20,34 @@
 h2 {
     font-size: 75px;
     margin: 0 auto;
+    padding-right: 64px;
 }
 
 .title {
     display: flex;
     align-items: center;
-    padding: 24px 0 12px 12px;
+    padding: 24px 12px 12px 12px;
 }
 
 .container {
-    margin: 50px;
     background-color: #363636;
 }
 
 .content {
     height: 590px;
     width: 100%;
-    padding: 0 100px 0 100px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     max-height: 590px;
-    width: 550px;
-    max-width: 550px;
+    width: 30%;
 }
 
 .card-content {
@@ -57,20 +56,27 @@ h2 {
 }
 .card-img-background {
     background-color: #c2c2c2f1;
-    margin: 10px;
     display: flex;
+    width: 100%;
+    height: 80%;
     align-items: center;
     justify-content: center;
 }
 
 img {
-    max-width: 450px;
-    height: 453px;
+    height: 100%;
+    width: 100%;
 }
 
 .card-text {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
     text-align: start;
-    margin: 0 10px 0 10px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 6px 0 6px;
+    gap: 24px;
 }
 
 h3 {
@@ -79,17 +85,15 @@ h3 {
 }
 
 .card-hability {
-    font-size: 15px;
-    padding: 10px 0 20px 0;
+    font-size: 20px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    height: 568px;
-    width: 550px;
-    max-width: 550px;
     justify-content: space-between;
+    width: 40%;
+    gap: 40px;
 }
 
 .character-info {
@@ -103,11 +107,11 @@ h3 {
     gap: 10px;
     font-size: 25px;
     background-color: #515151;
+    overflow: auto;
 }
 
 button {
     height: 65px;
-    width: 550px;
     background: linear-gradient(337deg, rgba(2,0,36,1) 0%, rgba(170,20,193,1) 35%, rgba(119,0,255,1) 100%);
     color: white;
     border: none;

@@ -4,14 +4,14 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 154px);
     background-color: #212121;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
     -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.69);
-    overflow: auto;
     text-align: center;
     padding: 12px;
+    margin-top: 12px;
     box-sizing: border-box;
     color: whitesmoke;
 }
@@ -19,12 +19,13 @@
 h2 {
     font-size: 75px;
     margin: 0 auto;
+    padding-right: 64px;
 }
 
 .title {
     display: flex;
     align-items: center;
-    padding: 24px 0 12px 12px;
+    padding: 24px 12px 12px 12px;
 }
 
 .content {
@@ -33,4 +34,5 @@ h2 {
     font-size: 30px;
     height: 100%;
     width: 100%;
+    overflow: auto;
 }

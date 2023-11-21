@@ -13,7 +13,7 @@ export class MarvelService {
 
   constructor(private http: HttpClient) { }
 
-  getMarvelCharacter(characterName: string): Observable<MarvelCharacter> {
+  getMarvelCharacter(characterName: string): Observable<any> {
     const queryParams = {
       nameStartsWith: characterName,
       apikey: this.apiKey,
