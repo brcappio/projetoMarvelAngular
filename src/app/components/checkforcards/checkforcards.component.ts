@@ -72,28 +72,4 @@ export class CheckforcardsComponent implements OnInit {
         }
       });
   }
-
-  // async getMarvelCharacter(characterName: string) {
-  //   try {
-  //     const response: any = await this.marvelService.getMarvelCharacter(characterName).toPromise();
-
-  //     if (response.data && response.data.results.length > 0) {
-  //       this.marvelCharacter = response.data.results[0];
-  //       this.comics = this.marvelCharacter?.comics?.available || 0;
-  //       this.series = this.marvelCharacter?.series?.available || 0;
-  //       this.stories = this.marvelCharacter?.stories?.available || 0;
-  //       this.events = this.marvelCharacter?.events?.available || 0;
-  //       console.log('Marvel Character:', this.marvelCharacter);
-  //       if (this.marvelCharacter?.description == "") {
-  //         this.marvelCharacter.description = "No description available from the Marvel API"
-  //       }
-  //     } else {
-  //       console.error(`Character "${characterName}" not found in the Marvel API. Rerolling...`);
-  //       this.getRandomCard();
-  //     }
-  //   } catch (error) {
-  //     console.error('Error fetching Marvel character:', error);
-  //     this.getRandomCard();
-  //   }
-  // }
 }
