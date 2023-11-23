@@ -7,7 +7,33 @@ html {
 }
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(151deg, rgba(2,0,36,1) 0%, rgba(170,20,193,1) 35%, rgba(119,0,255,1) 100%);
     margin: 24px;
+    background: linear-gradient(151deg, #020024, #aa14c1, #7700ff, #a659ff, #d852df);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    -o-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:24% 0%}
+    50%{background-position:77% 100%}
+    100%{background-position:24% 0%}
 }
