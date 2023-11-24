@@ -15,16 +15,20 @@ With this project I took my first steps with Angular, learned about:
 
 ## Features
 ### Homepage
-![Home](https://github.com/brcappio/projetomarvelbasf/assets/92182943/20b3d9f1-9800-4e95-96f9-96aae9fde1fd)
+![home](https://github.com/brcappio/projetoMarvelAngular/assets/92182943/f7a39f49-8245-4399-bcfc-0736c059b2f4)
+
 
 
 ### Card Checker (Main Application)
-![CardChecker](https://github.com/brcappio/projetomarvelbasf/assets/92182943/9b58a51f-5118-4ee4-aae8-04a3bfeb0a53)
+![cardchecker](https://github.com/brcappio/projetoMarvelAngular/assets/92182943/b994e206-91e5-4018-8946-3c50ef07460e)
 
 
-### Description
-![Description](https://github.com/brcappio/projetomarvelbasf/assets/92182943/d68edb96-e178-4de5-a644-a3c1173c47c9)
+
+### About
+![about](https://github.com/brcappio/projetoMarvelAngular/assets/92182943/97b6038e-801d-4b9c-aaec-b79a8a2bb811)
+
 
 
 ### Portfolio
-![Portfolio](https://github.com/brcappio/projetomarvelbasf/assets/92182943/ed5874f5-144f-40ac-82b1-5c887a419795)
+![portfolio](https://github.com/brcappio/projetoMarvelAngular/assets/92182943/8a97df7e-1052-4de7-a205-bf1063fd8c2e)
+
