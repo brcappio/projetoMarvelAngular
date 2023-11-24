@@ -1,5 +1,5 @@
 # Marvel Snap Card Checker
-**Try it out at: **
+**Try it out at: https://brcappio.github.io/projetoMarvelAngular/**
 
 Marvel Snap Card Checker is an application that takes a random card from the game and returns information about the character from the generated card, taken from the Marvel API.
 
