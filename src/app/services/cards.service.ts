@@ -10,7 +10,7 @@ export class CardsService {
   constructor(private http: HttpClient) { }
 
   getData():Observable <any> {
-    let url="/assets/data/CardsDatabase.json";
+    let url="assets/data/CardsDatabase.json";
     return this.http.get(url);
   }
 
